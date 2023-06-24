@@ -6,7 +6,9 @@
 + **Aldiyarbek Sultan** (*180103100*) - Content Manager (GitHub account: *sultanaldiyar*)
 
 ## Project
-Website Auto Community
+Website Auto Community:
+https://autocommunity.netlify.app/ 
+(https://autocommunitykz.herokuapp.com/)
 
 ## Alternatives / Market research
 + *autoscommunity.com*
