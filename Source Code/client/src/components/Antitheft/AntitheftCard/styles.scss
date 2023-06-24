@@ -1,0 +1,70 @@
+.antitheft-card{
+    background: #FFFFFF;
+    border: 0.5px solid #D7D7D7;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.06);
+    border-radius: 2px;
+    position: relative;
+    .admin-pan{
+        z-index: 1000;
+        position: absolute;
+        bottom: 16px;
+        right: 24px;
+        display: flex;
+        gap: 16px;
+        &>div{
+            cursor: pointer;
+            height: 24px;
+            width: 24px;
+            display: flex;
+            &>svg{
+                margin: auto;
+            }
+        }
+    }
+    .card-body{
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        padding: 16px;
+        .card-img-left{
+            margin-right: 24px;
+            width: 295px;
+            aspect-ratio: 3/2;
+            object-fit: cover;
+            object-position: center;
+        }
+        .info{
+            flex-grow: 1;
+            .card-title{
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 22px;
+                color: #000000;
+                margin: 0;
+                margin-bottom: 24px;
+            }
+            .card-text{
+                display: block;
+                &>span{
+                    display: block;
+                    padding: 0;
+                    padding-bottom: 8px;
+                    margin: 0;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #636363;
+                    span{
+                        color: #000000;   
+                    }
+                }
+                .date{
+                    position: absolute;
+                    bottom: 8px;
+                    right: 16px;
+                }
+            }
+        }
+    }
+}
